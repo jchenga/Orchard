@@ -1,0 +1,24 @@
+﻿@{
+    var siteUrl = Href("~");
+    var siteName = WorkContext.CurrentSite.SiteName;
+}
+<a href="@siteUrl" rel="home">
+    <img src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/Content/Images/Header.jpg"))" height="1000" width="1112" alt="" class="header-image" />
+</a>
+<div class="site-branding">
+    <div class="header-avatar">
+        <a href="@siteUrl" rel="home">
+            <img src="" width="70" height="70" alt=""/>
+        </a>
+    </div>
+
+    <h1 class="site-title">
+        <a href="@siteUrl">@siteName</a>
+    </h1>
+    <h2 class="site-description"></h2>
+</div>
+@if (Model.Navigation != null) {
+    <div id="site-navigation" class="main-navigation" role="navigation">
+        @Display(Model.Navigation)
+    </div>
+}

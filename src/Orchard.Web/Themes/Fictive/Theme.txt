@@ -1,7 +1,6 @@
 Name: Fictive
-Author: The Orchard Team
-Website: http://www.orchardproject.net
-Description: Description for the theme
+Author: Commercan Technologies Inc.
+Website: http://www.commercan.com
+Description: Ported from Fictive Wordpress theme
 Version: 1.0
-# todo: provide tags
-# Tags: Classic, Serif
+Tags: Fictive

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -61,6 +61,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fictive\Content\Images\header.jpg" />
+    <Content Include="Fictive\Styles\genericons.css" />
+    <Content Include="Fictive\Styles\style.css" />
     <Content Include="Fictive\Web.config" />
     <Content Include="Fictive\Scripts\Web.config" />
     <Content Include="Fictive\Styles\Web.config" />
@@ -68,10 +71,6 @@
     <Content Include="Fictive\Theme.txt" />
     <Content Include="Fictive\Theme.png" />
     <Content Include="Fictive\Placement.info" />
-    <Folder Include="Fictive\Content" />
-    <Folder Include="Fictive\Styles" />
-    <Folder Include="Fictive\Scripts" />
-    <Folder Include="Fictive\Views" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,6 +183,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Views\AdminCultureSelector.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fictive\Views\Document.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fictive\Views\Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fictive\Views\Resources.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fictive\Views\Header.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fictive\Views\Branding.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
