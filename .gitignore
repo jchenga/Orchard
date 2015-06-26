@@ -187,3 +187,4 @@ src/Orchard.Web/Modules/Orchard.Azure.MediaServices/node_modules
 
 #enable all /lib artifacts
 !lib/*/*.*
+src/Orchard.Web/Themes/PJS.Bootstrap
